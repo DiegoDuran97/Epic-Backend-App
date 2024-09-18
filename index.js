@@ -192,4 +192,4 @@ const main = async () => {
     console.log("Email Sent", emailAck)
 }
 
-schedule.scheduleJob('*/1 * * * *', main)
+schedule.scheduleJob('0 0 * * *', main)
